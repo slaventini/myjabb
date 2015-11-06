@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" tools:context="com.myjabb.AddContackFragment">
+
+    <EditText android:id="@+id/userid" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="userid"
+        android:imeActionLabel="userid"
+        android:inputType="text"
+        android:maxLines="1" android:singleLine="true" />
+
+    <Button android:id="@+id/add_button" style="?android:textAppearanceSmall"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="Добавить"
+        android:textStyle="bold" />
+
+</LinearLayout>
